@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Showtimes.my Redesign Demo</title>
+  <link rel="stylesheet" media="all" href="stylesheets/application.css?" data-turbolinks-track="true" />
+  <script src="javascripts/application.js" data-turbolinks-track="true"></script>
+</head>
+<body>
+  <div class="pageContainer">
+    <nav class="navBar navBar-top">
+  <div class="container">
+    <h1>Showtimes.my</h1>
+    <div class="navBar-cinemas">
+  <select id="cinema_picker" name="cinemas" class="navBar-cinema-picker">
+    <optgroup label="Favourites">
+      <option value="index.html" selected>Favourites Cinemas</option>
+      <option value="favourites.html" >Change Favourites</option>
+    </optgroup>
+    <optgroup label="Sabah">
+      <option value="index.html">Kota Kinabalu</option>
+      <option value="index.html">Sandakan</option>
+      <option value="index.html" >Tawau</option>
+    </optgroup>
+  </select>
+</div>
+    <div class="navBar-links navBar-dates u-clearfix">
+  <a class="active today" href="#">Today</a>
+  <a href="index.html">28 Jan</a>
+  <a href="index.html">29 Jan</a>
+  <a href="index.html">30 Jan</a>
+  <a href="index.html">31 Jan</a>
+  <a href="index.html">1 Feb</a>
+  <a href="index.html">2 Feb</a>
+  <a class="dropdown" data-behavior="dropdown" data-target="dates_dropdown" href="#">
+    TODAY <div class="arrow-down"></div>
+</a>  <div id="dates_dropdown" class="dropdown-menu" data-behavior="dropdown-menu">
+    <a href="index.html">28 Jan</a>
+    <a href="index.html">29 Jan</a>
+    <a href="index.html">30 Jan</a>
+    <a href="index.html">31 Jan</a>
+    <a href="index.html">1 Feb</a>
+    <a href="index.html">2 Feb</a>
+  </div>
+</div>
+  </div>
+</nav>
+
+<div class="moviesContainer container">
+
+  <article class="movie u-clearfix">
+    <div class="movie-poster" style="background-image: url('images/posters/gotg.jpg')">
+    </div>
+    <div class="movie-info">
+      <h3><a href="#" class="movie-rt-icon"><span>91</span></a>Guardians of the Galaxy</h3>
+      <h5>
+        English <span class="movie-info-separator">|</span>
+        2hr 1min <span class="movie-info-separator">|</span>
+        Action / Adventure <span class="movie-info-separator">|</span>
+        PG-13 <span class="movie-info-separator movie-info-extra">|</span>
+        <span class="movie-info-extra">More Info</span>
+      </h5>
+
+      <div class="movie-showtimes">
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">GSC Suria</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">GSC 1Borneo</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">Growball</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">TGV</a></h5>
+          <div class="showtime">11:00am</div>
+          <div class="showtime">12:15pm</div>
+          <div class="showtime">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+      </div>
+
+
+    </div>
+  </article>
+
+  <article class="movie u-clearfix">
+    <div class="movie-poster" style="background-image: url('images/posters/captain-america.jpg')">
+    </div>
+    <div class="movie-info">
+      <h3><a href="#" class="movie-rt-icon"><span>89</span></a>Captain America: The Winter Soldier</h3>
+      <h5>
+        English <span class="movie-info-separator">|</span>
+        2hr 16min <span class="movie-info-separator">|</span>
+        Action / Adventure <span class="movie-info-separator">|</span>
+        PG 13 <span class="movie-info-separator movie-info-extra">|</span>
+        <span class="movie-info-extra">More Info</span>
+      </h5>
+
+      <div class="movie-showtimes">
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">GSC Suria</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">GSC 1Borneo</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">Growball</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">TGV</a></h5>
+          <div class="showtime">11:00am</div>
+          <div class="showtime">12:15pm</div>
+          <div class="showtime">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+      </div>
+
+
+    </div>
+  </article>
+
+
+  <article class="movie u-clearfix">
+    <div class="movie-poster" style="background-image: url('images/posters/zombieland.jpg')">
+    </div>
+    <div class="movie-info">
+      <h3><a href="#" class="movie-rt-icon"><span>90</span></a>Zombieland</h3>
+      <h5>
+        English <span class="movie-info-separator">|</span>
+        1hr 28min <span class="movie-info-separator">|</span>
+        Horror / Comedy <span class="movie-info-separator">|</span>
+        R <span class="movie-info-separator movie-info-extra">|</span>
+        <span class="movie-info-extra">More Info</span>
+      </h5>
+
+      <div class="movie-showtimes">
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">GSC Suria</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">GSC 1Borneo</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">Growball</a></h5>
+          <div class="showtime past">11:00am</div>
+          <div class="showtime past">12:15pm</div>
+          <div class="showtime past">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+
+        <div class="cinema-showtimes u-clearfix">
+          <h5><a href="#">TGV</a></h5>
+          <div class="showtime">11:00am</div>
+          <div class="showtime">12:15pm</div>
+          <div class="showtime">1:30pm</div>
+          <div class="showtime">3:00pm</div>
+          <div class="showtime">5:30pm</div>
+          <div class="showtime">7:00pm</div>
+          <div class="showtime">7:30pm</div>
+          <div class="showtime">9:30pm</div>
+          <div class="showtime">10:00pm</div>
+          <div class="showtime">11:15pm</div>
+          <div class="showtime">11:45pm</div>
+        </div>
+      </div>
+
+
+    </div>
+  </article>
+
+</div>
+    <div id="dropdown_overlay" class="dropdown-overlay"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1231 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+/* line 8, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 17, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 31, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 52, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 64, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 73, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 84, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/* line 91, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 102, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 109, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 117, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 125, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 133, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 141, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 148, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 156, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 160, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 170, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 179, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 189, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 196, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 205, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 212, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 232, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 246, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 256, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 269, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 280, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 288, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 298, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 308, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 319, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 329, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 341, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 349, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 360, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 368, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 376, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 386, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 391, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 20, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-disabled {
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* line 23, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-disabled--light {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* line 30, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-pullLeft {
+  float: left !important;
+}
+
+/* line 34, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-pullRight {
+  float: right !important;
+}
+
+/* line 38, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-positionBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 44, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-autoWidth {
+  width: auto !important;
+}
+
+/* line 48, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fill, .u-fillWidth {
+  width: 100% !important;
+}
+
+/* line 52, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fill, .u-fillHeight {
+  height: 100% !important;
+}
+
+/* line 56, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-center {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* line 61, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-noMargin {
+  margin: 0 !important;
+}
+
+/* line 65, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-noTopMargin {
+  margin-top: 0 !important;
+}
+
+/* line 69, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-noRightMargin {
+  margin-right: 0 !important;
+}
+
+/* line 73, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-noBottomMargin {
+  margin-bottom: 0 !important;
+}
+
+/* line 77, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-noLeftMargin {
+  margin-left: 0 !important;
+}
+
+/* line 81, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-foreground {
+  position: relative;
+  z-index: 100;
+}
+
+/* line 86, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-block {
+  display: block !important;
+}
+
+/* line 90, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-inlineBlock {
+  display: inline-block !important;
+}
+
+/* line 94, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-table {
+  display: table;
+}
+
+/* line 98, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-table:before {
+  display: inherit;
+  height: auto;
+}
+
+/* line 103, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-table--fixed {
+  table-layout: fixed;
+}
+
+/* line 107, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-tableRow {
+  display: table-row;
+}
+
+/* line 111, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-tableCell {
+  display: table-cell;
+}
+
+/* line 115, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-clearfix:before, .u-clearfix:after {
+  display: table;
+  content: " ";
+}
+
+/* line 119, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-clearfix:after {
+  clear: both;
+}
+
+/* line 126, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-textAlignCenter {
+  text-align: center !important;
+}
+
+/* line 130, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-textAlignRight {
+  text-align: right !important;
+}
+
+/* line 134, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-textAlignLeft {
+  text-align: left !important;
+}
+
+/* line 138, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-verticalAlignTop {
+  vertical-align: top !important;
+}
+
+/* line 142, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-verticalAlignBottom {
+  vertical-align: bottom !important;
+}
+
+/* line 146, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-verticalAlignMiddle {
+  vertical-align: middle !important;
+}
+
+/* line 153, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-capitalize {
+  text-transform: capitalize !important;
+}
+
+/* line 155, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-uppercase {
+  text-transform: uppercase !important;
+}
+
+/* line 157, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-lowercase {
+  text-transform: lowercase !important;
+}
+
+/* line 159, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-underline {
+  text-decoration: underline !important;
+}
+
+/* line 161, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-before: 2;
+  -webkit-hyphenate-limit-after: 3;
+  -webkit-hyphenate-limit-lines: 2;
+}
+
+/* line 169, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 177, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontThin {
+  font-weight: 100 !important;
+}
+
+/* line 181, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontLight {
+  font-weight: 300 !important;
+}
+
+/* line 185, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontRegular {
+  font-weight: 400 !important;
+}
+
+/* line 189, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontSemibold {
+  font-weight: 600 !important;
+}
+
+/* line 193, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontBold {
+  font-weight: 700 !important;
+}
+
+/* line 197, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontExtraBold {
+  font-weight: 800 !important;
+}
+
+/* line 201, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-fontBlack {
+  font-weight: 900 !important;
+}
+
+/* line 208, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-navbarOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 600;
+}
+
+/* line 218, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-hide {
+  display: none !important;
+}
+
+/* line 222, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-opaque {
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 227, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+  .u-hideOnMobile {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 233, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+  .u-hideOnMiniTablet {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 239, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+  .u-showOnTablet {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 245, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+  .u-hideOnTablet {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 251, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+  .u-showOnTablet--landscape {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 257, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+  .u-hideOnTablet--landscape {
+    display: none !important;
+  }
+}
+/* line 262, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-overflowHidden {
+  overflow: hidden !important;
+}
+
+/* line 266, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/utilities/_utilities.scss */
+.u-hidePointerEvents {
+  pointer-events: none !important;
+}
+
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-radial       - arguments: Start Color: #FFFFFF, Start position: 0%, End Color: #000000, End position: 100%
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+    -   keyframes               - arguments: Animation name
+                                - content:   Animation css
+    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
+                                             (http://www.w3schools.com/cssref/css3_pr_animation.asp)
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+/* KEYFRAMES */
+/* ANIMATION */
+/* line 2, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
+body {
+  background-image: url("http://i283.photobucket.com/albums/kk307/malmal718/backgrounds-3.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+
+/* line 13, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
+.pageContainer {
+  background-color: transparent;
+  width: 100%;
+}
+
+/* line 19, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
+.container {
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 26, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
+.dropdown-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 600;
+}
+
+/* line 39, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
+.dropdown-overlay.is-revealed {
+  display: block;
+}
+
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema-city {
+  background-color: rgba(20, 20, 20, 0.8);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* line 7, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema-city-header {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 12, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema-city-header h3 {
+  margin: 0;
+  color: #999;
+  font-weight: normal;
+}
+
+/* line 18, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema {
+  padding: 10px;
+  color: #f2f2f2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+/* line 25, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 29, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema h3 {
+  margin: 0;
+  padding-right: 50px;
+  font-weight: normal;
+}
+
+/* line 35, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema-city .cinema:last-child {
+  border-bottom: 0;
+}
+
+/* line 39, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema-checkbox {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: block;
+  height: 20px;
+  width: 20px;
+  margin: 0 20px 0 10px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 49, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+.cinema-checkbox.is-selected {
+  background-color: rgba(203, 232, 107, 0.8);
+}
+
+@media (max-width: 768px) {
+  /* line 54, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/cinema.scss */
+  .cinema-city {
+    margin-bottom: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/container.scss */
+.cinemasContainer {
+  margin-top: 66px;
+}
+
+@media (max-width: 768px) {
+  /* line 6, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/cinemas/container.scss */
+  .cinemasContainer {
+    margin-top: 50px;
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/base.scss */
+.navBar {
+  position: fixed;
+  height: 50px;
+  top: 0;
+  width: 100%;
+  z-index: 700;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 10, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/base.scss */
+.navBar {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+}
+
+/* line 15, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/base.scss */
+.navBar h1 {
+  float: left;
+  font-size: 1.5rem;
+  line-height: 50px;
+  margin: 0;
+  padding-left: 10px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+@media (max-width: 960px) {
+  /* line 27, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/base.scss */
+  .navBar h1 {
+    display: none;
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/cinemas.scss */
+.navBar-cinemas {
+  float: left;
+  line-height: 50px;
+  margin-left: 20px;
+}
+
+/* line 7, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/cinemas.scss */
+select.navBar-cinema-picker {
+  border: 1px solid #000;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 960px) {
+  /* line 14, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/cinemas.scss */
+  .navBar-cinemas {
+    margin-left: 10px;
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/favourites.scss */
+.navBar-favourites-count {
+  float: left;
+  line-height: 50px;
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  margin-left: 20px;
+}
+
+/* line 9, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/favourites.scss */
+.favourites-help {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+}
+
+/* line 14, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/favourites.scss */
+.favourites-help p {
+  margin: 0 0 1rem 0;
+  color: #f2f2f2;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+/* line 21, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/favourites.scss */
+.favourites-help p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 960px) {
+  /* line 26, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/favourites.scss */
+  .navBar-favourites-count {
+    margin-left: 10px;
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links {
+  display: inline-block;
+}
+
+/* line 5, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links > a {
+  float: left;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 18, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links a:hover,
+.navBar-links a.dropdown.is-inverse:hover {
+  background-color: #000;
+}
+
+/* line 23, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links a.active {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* line 28, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links a.dropdown {
+  position: relative;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+/* line 34, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links a.dropdown.is-inverse {
+  color: #f2f2f2;
+  background-color: transparent;
+}
+
+/* line 39, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links a.dropdown.is-inverse.is-selected {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* line 44, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-links .arrow-down {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: 3px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #000;
+}
+
+/* line 55, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+a.dropdown.is-inverse .arrow-down {
+  border-top: 6px solid #f2f2f2;
+}
+
+/* line 59, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+a.dropdown.is-inverse.is-selected .arrow-down {
+  border-top: 6px solid #000;
+}
+
+/* line 63, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 900;
+}
+
+/* line 72, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.dropdown-menu.is-opened {
+  display: block;
+}
+
+/* line 76, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.dropdown-menu > a {
+  display: block;
+  float: left;
+  height: 45px;
+  line-height: 45px;
+  color: #f2f2f2;
+  background-color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 8px;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 92, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+.navBar-dates a.dropdown {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* line 97, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+  .navBar-dates > a:not(.dropdown) {
+    display: none;
+  }
+
+  /* line 101, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+  .navBar a.dropdown {
+    display: block;
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/container.scss */
+.moviesContainer {
+  margin-top: 66px;
+}
+
+@media (max-width: 768px) {
+  /* line 6, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/container.scss */
+  .moviesContainer {
+    margin-top: 50px;
+  }
+}
+/* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie {
+  position: relative;
+  background-color: rgba(20, 20, 20, 0.8);
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 9, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie h3 {
+  color: #f2f2f2;
+  margin: 0 0 5px 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 19, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0 0 5px 0;
+  color: #999;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 29, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie h5 span.movie-info-separator {
+  padding: 0 10px;
+}
+
+/* line 33, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie-rt-icon {
+  float: left;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: transparent url(../images/rt-icons.png) no-repeat 1px 0;
+  background-size: cover;
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 0.9rem;
+  text-align: center;
+  vertical-align: middle;
+  margin: -2px 5px 0 0;
+  font-weight: normal;
+  line-height: 35px;
+  text-shadow: 1px 1px 10px black;
+}
+
+/* line 51, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie-rt-icon.rotten {
+  background-position: -30px 2px;
+}
+
+/* line 55, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie-rt-icon.rotten {
+  text-shadow: 1px 1px 10px black;
+}
+
+/* line 59, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie-poster {
+  position: absolute;
+  width: 160px;
+  height: 240px;
+  top: 10px;
+  left: 10px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 69, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie-info {
+  margin-left: 170px;
+  padding: 10px 20px;
+}
+
+/* line 74, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.movie-showtimes {
+  margin: 1.5rem 0 0 0;
+}
+
+/* line 78, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.cinema-showtimes {
+  position: relative;
+  padding-left: 100px;
+}
+
+/* line 83, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.cinema-showtimes h5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+/* line 91, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.cinema-showtimes h5 a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* line 96, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.showtime {
+  float: left;
+  margin: 0 0 5px 5px;
+  padding: 4px 5px;
+  width: 55px;
+  text-align: center;
+  display: inline-block;
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: 0.9rem;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 109, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+.showtime.past {
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  /* line 115, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie {
+    margin-bottom: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+
+  /* line 122, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie-poster {
+    display: none;
+  }
+
+  /* line 126, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie-info {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  /* line 131, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie h5 {
+    font-size: 0.8rem;
+  }
+
+  /* line 135, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie-showtimes {
+    display: none;
+  }
+
+  /* line 139, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .cinema-showtimes h5 {
+    font-size: 1rem;
+  }
+
+  /* line 143, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie h5 span.movie-info-separator {
+    padding: 0 5px;
+  }
+
+  /* line 147, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/movie.scss */
+  .movie h5 .movie-info-extra {
+    display: none;
+  }
+}
+/* Make clicks pass-through */
+/* line 2, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+#nprogress {
+  pointer-events: none;
+}
+
+/* line 6, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+#nprogress .bar {
+  background: #29d;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+/* Fancy blur effect */
+/* line 19, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+/* line 34, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+/* line 42, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  border-top-color: #29d;
+  border-left-color: #29d;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+/* line 56, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 61, /Users/tslim/Development/flexnode/showtimes2/vendor/assets/stylesheets/nprogress/nprogress.css */
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

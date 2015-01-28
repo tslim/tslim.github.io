@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Showtimes.my Favourites Redesign Demo</title>
+  <link rel="stylesheet" media="all" href="stylesheets/application.css?" data-turbolinks-track="true" />
+  <script src="javascripts/application.js" data-turbolinks-track="true"></script>
+</head>
+<body>
+<div class="pageContainer">
+  <nav class="navBar navBar-top">
+    <div class="container">
+      <h1>Showtimes.my</h1>
+      <div class="navBar-favourites-count">
+        2 Favourites selected
+      </div>
+
+      <div class="navBar-links u-clearfix">
+        <a href="index.html">Done</a>
+        <a class="dropdown is-inverse" data-behavior="dropdown" data-target="help_dropdown" href="#">
+          HELP <div class="arrow-down"></div>
+  </a>      <div id="help_dropdown" class="dropdown-menu" data-behavior="dropdown-menu">
+          <div class="favourites-help">
+            <p>Select your favourites cinemas from the list below by clicking or tapping on them.</p>
+
+            <p>Click DONE to view movie showtimes.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <div class="cinemasContainer container">
+
+    <div class="cinema-city">
+      <div class="cinema-city-header">
+        <h3 class="u-pullRight">4 Cinemas</h3>
+        <h3>Kota Kinabalu - Sabah</h3>
+      </div>
+
+      <div class="cinema">
+        <span class="cinema-checkbox is-selected"></span>
+        <h3>GSC Suria Sabah</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox is-selected"></span>
+        <h3>GSC 1 Borneo</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox "></span>
+        <h3>Growball Cineplex</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox "></span>
+        <h3>Megalong Cineplex</h3>
+      </div>
+    </div>
+
+    <div class="cinema-city">
+      <div class="cinema-city-header">
+        <h3 class="u-pullRight">5 Cinemas</h3>
+        <h3>Kuching - Sarawak</h3>
+      </div>
+
+      <div class="cinema">
+        <span class="cinema-checkbox"></span>
+        <h3>GSC CityONE</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox "></span>
+        <h3>MBO Spring Mall</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox "></span>
+        <h3>LFS Riverside Kuching</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox "></span>
+        <h3>LFS Summer Mall</h3>
+      </div>
+      <div class="cinema">
+        <span class="cinema-checkbox "></span>
+        <h3>LFS Summer Mall</h3>
+      </div>
+    </div>
+
+  </div>
+  <div id="dropdown_overlay" class="dropdown-overlay"></div>
+</div>
+</body>
+</html>
