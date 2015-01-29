@@ -643,7 +643,7 @@ body {
 }
 
 /* line 26, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
-a.dropdown-overlay {
+.dropdown-overlay {
   display: none;
   position: fixed;
   top: 50px;
@@ -657,7 +657,7 @@ a.dropdown-overlay {
 }
 
 /* line 39, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
-a.dropdown-overlay.is-revealed {
+.dropdown-overlay.is-revealed {
   display: block;
 }
 
