@@ -11661,7 +11661,9 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
       }
     }, "[data-behavior~='dropdown']");
     return $("body").on({
-      'click touchstart': function() {
+      'touchstart click': function(e) {
+        e.stopPropagation();
+        e.preventDefault();
         return $("[data-behavior~='dropdown'].is-selected").click();
       }
     }, "#dropdown_overlay");
@@ -11681,13 +11683,12 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
 (function() {
   $(function() {
     return $("body").on({
-      'click': function(e) {
-      	e.stopPropagation();
-      	e.preventDefault();
+      'touchstart click': function(e) {
+        e.stopPropagation();
+        e.preventDefault();
         if (window.innerWidth <= 768) {
-          $(this).find(".movie-showtimes").toggle();
+          return $(this).find(".movie-showtimes").toggle();
         }
-        return false;
       }
     }, ".movie");
   });
