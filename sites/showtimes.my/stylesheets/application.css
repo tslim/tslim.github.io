@@ -1025,7 +1025,7 @@ a.dropdown.is-selected .arrow-down {
   display: block;
   height: 30px;
   width: 30px;
-  background: transparent url(/assets/rt-icons-9dc57536cdbfa12625f3a920798556b5.png) no-repeat 1px 0;
+  background: transparent url(../images/rt-icons.png) no-repeat 1px 0;
   background-size: cover;
   text-decoration: none;
   color: #f2f2f2;
