@@ -904,10 +904,17 @@ a.dropdown.is-inverse .arrow-down {
 
 /* line 59, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
 a.dropdown.is-inverse.is-selected .arrow-down {
-  border-top: 6px solid #000;
+  border-bottom: 6px solid #000;
+  border-top: 0;
 }
 
-/* line 63, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+/* line 64, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+a.dropdown.is-selected .arrow-down {
+  border-bottom: 6px solid #000;
+  border-top: 0;
+}
+
+/* line 69, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -917,12 +924,12 @@ a.dropdown.is-inverse.is-selected .arrow-down {
   z-index: 900;
 }
 
-/* line 72, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+/* line 78, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
 .dropdown-menu.is-opened {
   display: block;
 }
 
-/* line 76, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+/* line 82, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
 .dropdown-menu > a {
   display: block;
   float: left;
@@ -939,24 +946,24 @@ a.dropdown.is-inverse.is-selected .arrow-down {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 92, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+/* line 98, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
 .navBar-dates a.dropdown {
   display: none;
 }
 
 @media (max-width: 768px) {
-  /* line 97, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+  /* line 103, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
   .navBar-dates > a:not(.dropdown) {
     display: none;
   }
 
-  /* line 101, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+  /* line 107, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
   .navBar a.dropdown {
     display: block;
   }
 }
 @media (max-width: 320px) {
-  /* line 107, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+  /* line 113, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
   .dropdown-menu > a {
     padding: 0 5px;
   }
@@ -1018,7 +1025,7 @@ a.dropdown.is-inverse.is-selected .arrow-down {
   display: block;
   height: 30px;
   width: 30px;
-  background: transparent url(../images/rt-icons.png) no-repeat 1px 0;
+  background: transparent url(/assets/rt-icons-9dc57536cdbfa12625f3a920798556b5.png) no-repeat 1px 0;
   background-size: cover;
   text-decoration: none;
   color: #f2f2f2;
