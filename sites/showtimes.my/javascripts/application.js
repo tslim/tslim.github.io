@@ -11683,8 +11683,9 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
     return $("body").on({
       'click touchstart': function() {
         if (window.innerWidth <= 768) {
-          return $(this).find(".movie-showtimes").toggle();
+          $(this).find(".movie-showtimes").toggle();
         }
+        return false;
       }
     }, ".movie");
   });
