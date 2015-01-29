@@ -643,7 +643,7 @@ body {
 }
 
 /* line 26, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
-.dropdown-overlay {
+a.dropdown-overlay {
   display: none;
   position: absolute;
   top: 0;
@@ -657,7 +657,7 @@ body {
 }
 
 /* line 39, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
-.dropdown-overlay.is-revealed {
+a.dropdown-overlay.is-revealed {
   display: block;
 }
 
@@ -955,6 +955,12 @@ a.dropdown.is-inverse.is-selected .arrow-down {
     display: block;
   }
 }
+@media (max-width: 320px) {
+  /* line 107, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/navbar/links.scss */
+  .dropdown-menu > a {
+    padding: 0 5px;
+  }
+}
 /* line 1, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/movies/container.scss */
 .moviesContainer {
   margin-top: 66px;
@@ -1012,7 +1018,7 @@ a.dropdown.is-inverse.is-selected .arrow-down {
   display: block;
   height: 30px;
   width: 30px;
-  background: transparent url(../images/rt-icons.png) no-repeat 1px 0;
+  background: transparent url(/assets/rt-icons-9dc57536cdbfa12625f3a920798556b5.png) no-repeat 1px 0;
   background-size: cover;
   text-decoration: none;
   color: #f2f2f2;
