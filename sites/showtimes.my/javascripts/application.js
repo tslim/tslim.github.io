@@ -11652,14 +11652,15 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
 (function() {
   $(function() {
     $("body").on({
-      'click': function() {
+      'click': function(e) {
         var target;
+        e.preventDefault();
         target = $(this).data("target");
         $(this).toggleClass("is-selected");
         $("#" + target).toggleClass("is-opened");
         return $("#dropdown_overlay").toggleClass("is-revealed");
       }
-    }, "[data-behavior~='dropdown']");
+    }, "[data-behavior='dropdown']");
     return $("body").on({
       'tap click': function(e) {
         e.stopPropagation();
