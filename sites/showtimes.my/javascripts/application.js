@@ -11683,6 +11683,7 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
     return $("body").on({
       'click touchend': function(e) {
       	e.stopPropagation();
+      	e.preventDefault();
         if (window.innerWidth <= 768) {
           $(this).find(".movie-showtimes").toggle();
         }
