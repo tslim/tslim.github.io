@@ -645,8 +645,8 @@ body {
 /* line 26, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
 a.dropdown-overlay {
   display: none;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 50px;
   bottom: 0;
   left: 0;
   right: 0;
