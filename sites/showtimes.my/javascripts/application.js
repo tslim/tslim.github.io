@@ -11681,7 +11681,7 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
 (function() {
   $(function() {
     return $("body").on({
-      'click touchend': function(e) {
+      'click': function(e) {
       	e.stopPropagation();
       	e.preventDefault();
         if (window.innerWidth <= 768) {
