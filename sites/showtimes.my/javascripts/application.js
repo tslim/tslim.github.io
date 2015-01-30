@@ -11685,10 +11685,21 @@ Copyright (c) 2012-2013 Sasha Koss & Rico Sta. Cruz
   $(function() {
     return $("body").on({
       'tap click': function(e) {
+        var navbar_height;
         e.stopPropagation();
         e.preventDefault();
-        if (window.innerWidth <= 768) {
-          return $(this).find(".movie-showtimes").toggle();
+        if (window.innerWidth > 768) {
+          return;
+        }
+        $(this).find(".movie-showtimes").toggle();
+        if ($(this).find(".movie-showtimes").is(":visible")) {
+          navbar_height = $(".navBar").height();
+          return $('html,body').animate({
+            scrollTop: $(this).offset().top - navbar_height
+          }, {
+            duration: 300,
+            easing: 'swing'
+          });
         }
       }
     }, ".movie");
