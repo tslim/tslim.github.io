@@ -620,7 +620,7 @@ th {
 /* ANIMATION */
 /* line 2, /Users/tslim/Development/flexnode/showtimes2/app/assets/stylesheets/components/base/page.scss */
 body {
-  background-image: url("http://i283.photobucket.com/albums/kk307/malmal718/backgrounds-3.jpg");
+  background-image: url("../images/bg.jpg");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
